@@ -31,7 +31,7 @@ class Scrub_ext {
 	public $docs_url		= '';
 	public $name			= 'Scrub';
 	public $settings_exist	= 'y';
-	public $version			= '1.0';
+	public $version			= '0.1';
 	
 	private $EE;
 	
