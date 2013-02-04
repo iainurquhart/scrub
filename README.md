@@ -15,3 +15,23 @@ Visit the Scrub extension settings screen and apply filters to each of your fiel
 Scrub uses the HTMLawed library, browse the documentation for options for the [Deny Attributes](http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/htmLawed_README.htm#s3.4) and [Elements](http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/htmLawed_README.htm#s3.3) fields.
 
 The documentation there is a bit crap sorry, I'll be looking at making a more consice set of examples soon.
+
+## Basic Examples
+
+Setting 'Elements' to:
+
+	* -span
+
+Will allow everything except spans. (The asterisk is important)
+
+* * *
+
+Setting 'Deny attributes' to:
+
+	class, style
+
+Will disallow classes and style attributes to all elements.
+
+* * *
+
+Any questions, feature requests etc, please use the issue tracker here on GitHub.
