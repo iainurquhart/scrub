@@ -68,7 +68,7 @@
 				form_checkbox("fields[$i][filter][remove_comments]", '1', $settings['filter']['remove_comments'])." Remove HTML Comments<br />".
 				form_checkbox("fields[$i][filter][remove_empty_paras]", '1', $settings['filter']['remove_empty_paras'])." Remove Empty Paragraphs<br /><br />".
 				"Deny Attributes: (comma seperated eg <strong>class, style</strong>) ".form_input("fields[$i][filter][deny_attributes]", $settings['filter']['deny_attributes'])." <br />".
-				"Elements: ".form_input("fields[$i][filter][elements]", $settings['filter']['elements'])." <br />".
+				"Elements: (comma seperated eg &nbsp; <strong>* -div, -blink</strong> &nbsp; would allow everything except divs and blink tags) ".form_input("fields[$i][filter][elements]", $settings['filter']['elements'])." <br />".
 				"</span>",
 				array('data' => $nav, 'class' => 'roland_nav')
 			);
@@ -86,7 +86,7 @@
 			form_checkbox("fields[0][filter][remove_comments]", '1', '')." Remove HTML Comments<br />".
 			form_checkbox("fields[0][filter][remove_empty_paras]", '1', '')." Remove Empty Paragraphs<br /><br />".
 			"Deny Attributes:  (comma seperated eg <strong>class, style/</strong>)".form_input("fields[0][filter][deny_attributes]", '', '')." <br />".
-			"Elements: (comma seperated eg <strong>-div, -blink</strong>)".form_input("fields[0][filter][elements]", '', '')." <br />".
+			"Elements: (comma seperated eg <strong>* -div, -blink</strong>)".form_input("fields[0][filter][elements]", '', '')." <br />".
 			"</span>",
 			array('data' => $nav, 'class' => 'roland_nav')
 		);

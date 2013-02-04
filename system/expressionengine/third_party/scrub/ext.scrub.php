@@ -219,7 +219,7 @@ class Scrub_ext {
 						'tidy' => (isset($setting['filter']['tidy'])) ? $setting['filter']['tidy'] : '',
 						'comment' => (isset($setting['filter']['remove_comments'])) ? $setting['filter']['remove_comments'] : 0,
 						'deny_attribute' => (isset($setting['filter']['deny_attributes'])) ? $setting['filter']['deny_attributes'] : '',
-						'elements' => (isset($setting['filter']['elements'])) ? '* '.$setting['filter']['elements'] : '',
+						'elements' => (isset($setting['filter']['elements'])) ? $setting['filter']['elements'] : '',
 						'keep_bad' => 0
 					);
 
