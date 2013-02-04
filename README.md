@@ -1,9 +1,7 @@
 Scrub
 =====
 
-Clean your incoming content before it hits your database.
-
-*** Documentation
+Clean your incoming channel field data before it hits your database.
 
 ## Usage
 
